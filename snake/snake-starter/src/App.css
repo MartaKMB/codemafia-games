@@ -1,0 +1,64 @@
+.score {
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  left: 50%;
+  margin-left: 200px;
+  top:0px;
+  color: #000;
+}
+
+.board {
+  margin: auto;
+  background: #ddd;;
+  overflow: hidden;
+  outline: none;
+  border:2px solid #000;
+
+}
+
+.controls {
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -25px;
+  position: absolute;
+  top: 50%;
+}
+
+.controls button {
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: default;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+}
+
+.controls button:hover {
+  opacity: 1;
+}
+
+.body-cell, .cell {
+  height: 30px;
+  width: 30px;
+}
+
+.body-cell, .food-cell, .cell {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+}
+
+.body-cell {
+  background: #39c;
+  box-shadow: 0px 0px 5px #39c;
+  border: 1px solid #fff;
+}
+
+.food-cell {
+  background: #0b3;
+  height: 30px;
+  width: 30px;
+}
